@@ -22,7 +22,7 @@ Instala `yt-dlp` con pip:
 ```bash
 pip install yt-dlp
 
-
+---
 ##Full Example/ Ejemplo de Uso
 Download to the current folder:
 Descargar en la carpeta actual:
