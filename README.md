@@ -21,16 +21,35 @@ Instala `yt-dlp` con pip:
 
 ```bash
 pip install yt-dlp
+```
 
 ---
 
-## Full Example/ Ejemplo de Uso
-- Download to the current folder: / Descargar en la carpeta actual:
-```bash
-$ python3 mp3downloader.py https://www.youtube.com/example
+## 🧪 Usage / Uso
 
-- Download to a specific folder: / Descargar en una carpeta específica:
+Basic usage:  
+Uso básico:
+
 ```bash
-$ python3 mp3downloader.py https://www.youtube.com/example downloads
+python descargar_audio.py <YOUTUBE_URL> [<OUTPUT_FOLDER>]
+```
+
 ---
 
+## 📌 Examples / Ejemplos
+
+Download to the current folder:  
+Descargar en la carpeta actual:
+
+```bash
+python descargar_audio.py https://www.youtube.com/watch?v=NfMKBKKzIXM
+```
+
+Download to a specific folder:  
+Descargar en una carpeta específica:
+
+```bash
+python descargar_audio.py https://www.youtube.com/watch?v=NfMKBKKzIXM audios
+```
+
+---
